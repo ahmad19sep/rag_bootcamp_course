@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "chromadb>=1.5.9",
+    "docx2txt>=0.9",
     "faiss-cpu>=1.15.1",
     "ipykernel>=7.3.0",
     "langchain>=1.4.1",
@@ -17,10 +18,13 @@ dependencies = [
     "langchain-openai>=1.6.2",
     "langchain-text-splitters>=1.1.2",
     "pandas>=3.0.6",
+    "pymupdf>=1.28.2",
     "pypdf>=6.19.0",
+    "python-docx>=1.2.0",
     "python-dotenv>=1.2.3",
     "sentence-transformers>=6.1.0",
     "tiktoken>=0.14.0",
+    "unstructured>=0.27.6",
 ]
 
 [project.scripts]
