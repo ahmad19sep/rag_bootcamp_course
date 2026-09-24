@@ -11,3 +11,4 @@ pypdf
 python-dotenv
 python-docx
 docx2txt
+langchain-huggingface
